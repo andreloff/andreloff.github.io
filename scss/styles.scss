@@ -1093,4 +1093,80 @@ footer {
     }
 }
 
+/*
+    -------------------------------------
+    ----- 14. Menu Styles -----
+    -------------------------------------
+*/
+
+#mymenu {
+    //position: absolute;
+    // z-index: 10;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    // text-align: center;
+
+    // h1, h2 {
+    //     margin: 0;
+    // }
+
+    // h1 {
+    //     color: #fff;
+    //     font-weight: 900;
+    //     font-size: 5em;
+    //     text-transform: uppercase;
+    //     letter-spacing: 0.05em;
+    //     line-height: 0.9em;
+    // }
+
+    // h2 {
+    //     color: lighten($base-color, 25%);
+    //     font-weight: 500;
+    //     font-size: 2.25em;
+    //     margin-bottom: 15px;
+    // }
+
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    align-content: center;
+    z-index: 100;
+    background-color: #333;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        
+    }
+      
+    li {
+        float: left;
+        border-right: 1px solid #bbb;
+        border-left: 1px solid #bbb;
+    }
+      
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+      
+      /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+
+
+    .active {
+        background-color: #04AA6D;
+    }
+}
+
 
